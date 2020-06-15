@@ -1,74 +1,136 @@
-html, body {
-  background: #fff;
-  font-family: Arial, sans-serif;
-  font-weight: bold;
-  margin: 0;
-  padding: 0;
-  text-transform: lowercase;
+body, html {
+  background: #f9f9f9;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
 }
-.container {
-  padding: 0;
-  width: 100%;
-}
+
 .header {
-  margin: 0;
-  padding: 0;
+  background: #aa08ff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  text-align: center;
 }
+
 .header img {
-  margin: 0 20px 0 0;
+  margin: 20px auto;   
+  padding: 20px 0; 
+  text-align: center;
 }
-.header a {
-  color: #000;
-  font-size: 20px;  
-  text-decoration: none; 
+
+.header ul {
+list-style: none;
 }
-.header a:hover {
-  color: #c91717;
-  text-decoration: none;   
+
+.header li {
+display: inline;
+margin-right: 30px;
 }
-.main h2 {
-  background: #000;
-  color: #fff;
-  font-size: 16px;
-  height: 80px;
-  margin: 0;
-  padding: 10px;
-  position: absolute;
-  width: 80px;
-  z-index: 1;
+
+.main {
+  margin: 40px 0;
 }
-.item {
+
+.email {
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  font-size: 18px;
+  margin: 0 0 8px;
+  padding: 20px 0;
+}
+
+.email:hover {
+  background: #fcfcfc;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.2);
   cursor: pointer;
-  margin: 0;  
-  padding: 1%;
 }
-.item:hover {
-  background: #000; 
-  text-decoration: none;
-  transition: background 500ms;
-}
-p.author {
+
+.email span {
   color: #000;
-  padding: 24px;
-  text-align: left;
-}
-.item:hover p.author, .item:hover a {
-  color: #fff;
-  text-decoration: none;
-}
-.photo {
-  margin: 0 0 80px;   
-}
-.photo img {
-  width: 40%;
-}
-.photo h2 {
-  color: #000;
-  padding: 20px 108px;
-}
-.photo p {
-  color: #6f6f6f;
+  display: inline-block;
   margin: 0;
-  padding: 0 108px 0;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
 }
-  
+
+a.back {
+  background: #ffbd1a;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  color: #fff;
+  display: block;
+  font-weight: bold;
+  margin: 0 0 20px;
+  padding: 14px 0;
+  text-align: center;
+  width: 200px;
+}
+
+a.back:hover {
+  background: #f7a500;
+  text-decoration: none;
+}
+
+.from {
+  font-size: 16px;
+  font-weight: 700;
+  padding-left: 2%;
+  width: 20%;
+}
+
+.subject {
+  width: 60%;
+}
+
+.date {
+  font-size: 14px;
+  padding-right: 2%;
+  text-align: right;
+  text-overflow: ellipsis;
+  width: 15%;
+}
+
+.email-view {
+  background: #fff;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 50px;
+}
+
+.email-view h2 {
+  font-size: 40px;
+  padding: 0;
+  margin: 0 0 10px;
+}
+
+.email-view .from {
+  display: inline-block;
+  padding: 0;
+  width: 50%;
+}
+
+.email-view .date {
+  display: inline-block;
+  padding: 0;
+  text-align: right;
+  width: 50%;
+}
+
+.email-view p {
+  font-size: 24px;
+  margin: 30px 0 0;
+}
+
+.footer {
+background:#000;
+padding:60px 0; 
+}
+
+.footer h3 {
+color:#fff;
+font-size:18px;
+font-weight:300;  
+}
+
+.footer ul {
+color:#0393ff; 
+list-style:none;
+padding-left:0px;  
+}

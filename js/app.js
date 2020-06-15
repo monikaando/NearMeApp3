@@ -1,16 +1,15 @@
-var app = angular.module("GalleryApp", ["ngRoute"]);
-
+var app = angular.module("OutboxApp", ["ngRoute"]);
 app.config(function ($routeProvider) {
   $routeProvider
-    .when("/", {
+    .when("/outbox", {
       controller: "HomeController",
       templateUrl: "views/home.html",
     })
-    .when("/photos/:id", {
-      controller: "PhotoController",
-      templateUrl: "views/photo.html",
+    .when("/outbox/:id", {
+      controller: "EmailController",
+      templateUrl: "views/email.html",
     })
     .otherwise({
-      redirectTo: "/",
+      redirectTo: "/outbox",
     });
 });
