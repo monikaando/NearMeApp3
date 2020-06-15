@@ -1,4 +1,4 @@
-# Top10tvShows
+# Outbox2
 In this exercise I practiced:
 1. Build and use modules in AngularJS 1.x
 2. Build and use controllers in AngularJS 1.x
