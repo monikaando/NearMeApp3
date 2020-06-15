@@ -7,5 +7,6 @@ In this exercise I practiced:
 5. Use the ng-repeat directive
 6. Build and use services in AngularJS 1.x
 7. Fetching data from a server
-8. Routing
+8. Angular Route
+9. Route provider
 <img src="https://res.cloudinary.com/mokaweb/image/upload/v1592233150/Codecademy%20Angular/outbox2.gif" alt="Outbox2">
