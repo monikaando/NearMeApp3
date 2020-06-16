@@ -1,15 +1,15 @@
-var app = angular.module("OutboxApp", ["ngRoute"]);
+var app = angular.module("CalendarApp", ["ngRoute"]);
 app.config(function ($routeProvider) {
   $routeProvider
-    .when("/outbox", {
-      controller: "HomeController",
-      templateUrl: "views/home.html",
+    .when("/", {
+      controller: "DayController",
+      templateUrl: "views/day.html",
     })
-    .when("/outbox/:id", {
-      controller: "EmailController",
-      templateUrl: "views/email.html",
+    .when("/:id", {
+      controller: "EventController",
+      templateUrl: "views/event.html",
     })
     .otherwise({
-      redirectTo: "/outbox",
+      redirectTo: "/",
     });
 });
