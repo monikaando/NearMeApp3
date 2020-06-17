@@ -1,4 +1,4 @@
-# Calendar
+# Reader
 In this exercise I practiced:
 1. Build and use modules in AngularJS 1.x
 2. Build and use controllers in AngularJS 1.x
@@ -9,4 +9,4 @@ In this exercise I practiced:
 7. Fetching data from a server
 8. Angular Route
 9. Route provider
-<img src="https://res.cloudinary.com/mokaweb/image/upload/v1592345440/Codecademy%20Angular/calendar.gif" alt="Calendar">
+<img src="https://res.cloudinary.com/mokaweb/image/upload/v1592398352/Codecademy%20Angular/reader.gif" alt="Reader">

@@ -1,15 +1,19 @@
-var app = angular.module("CalendarApp", ["ngRoute"]);
+var app = angular.module("ReaderApp", ["ngRoute"]);
 app.config(function ($routeProvider) {
   $routeProvider
-    .when("/", {
-      controller: "DayController",
-      templateUrl: "views/day.html",
+    .when("/books", {
+      controller: "BookshelfController",
+      templateUrl: "views/bookshelf.html",
     })
-    .when("/:id", {
-      controller: "EventController",
-      templateUrl: "views/event.html",
+    .when("/books/:bookId", {
+      controller: "BookController",
+      templateUrl: "views/book.html",
+    })
+    .when("/books/:bookId/chapters/:chapterId", {
+      controller: "ChapterController",
+      templateUrl: "views/chapter.html",
     })
     .otherwise({
-      redirectTo: "/",
+      redirectTo: "/books",
     });
 });
