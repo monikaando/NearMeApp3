@@ -1,39 +1,39 @@
 <!doctype html>
 <html>
   <head>
-      <link href="https://fonts.googleapis.com/css?family=Roboto:400,700,300,900" rel="stylesheet" type="text/css">
-    <link href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet" />
+    <link href="css/leaflet.css" rel="stylesheet" />
     <script src="js/vendor/angular.min.js"></script>
-    <script src="https://code.angularjs.org/1.2.28/angular-route.min.js"></script>
-  <title>Reader</title>
+    <script src="js/vendor/leaflet.js"></script>  
+    <script src="js/vendor/angular-leaflet-directive.min.js"></script>  
+    <title>NearMe App</title>
 
   </head>
-  <body ng-app="ReaderApp">
+  <body ng-app="NearMeApp">
+    
     <div class="header">
-      <div class="container">
-        Reader
+      <div class="container-fluid">
+        <h1 class="pull-left">NearMe</h1>
       </div>
     </div>
 
-    <div class="main">
-      <div class="container">
-
-        <div ng-view></div>
-
+    <div class="main" ng-controller="MainController">
+      <div class="container-fluid" id="map-canvas">
+        <leaflet center="mapCenter" markers="mapMarkers"></leaflet>
       </div>
     </div>
 
     <!-- Modules -->
-    <script src="js/app.js"></script>
+    <script src="js/app.js"></script>   
 
     <!-- Controllers -->
-    <script src="js/controllers/BookshelfController.js"></script>
-    <script src="js/controllers/BookController.js"></script>
-    <script src="js/controllers/ChapterController.js"></script>
+    <script src="js/controllers/MainController.js"></script>   
+
+    <!-- Directives -->
+    
 
     <!-- Services -->
-    <script src="js/services/books.js"></script>
 
   </body>
 </html>
