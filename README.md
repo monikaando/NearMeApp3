@@ -1,7 +1,7 @@
 # NearMeApp
 In this exercise I practiced:
-1. Build and use modules in AngularJS 1.x
-2. Build and use controllers in AngularJS 1.x
+1. Create and use modules 
+2. Create and use controllers
 3. Use expressions to render data
 4. Use an Angular built-in filter
 5. Injecting dependencies into modules
