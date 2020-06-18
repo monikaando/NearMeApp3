@@ -7,4 +7,4 @@ In this exercise I practiced:
 5. Injecting dependencies into modules
 6. Passing data from controller to directive
 7. Services
-<img src="https://res.cloudinary.com/mokaweb/image/upload/v1592417155/Codecademy%20Angular/NearMeApp.gif" alt="NearMeApp2">
+<img src="https://res.cloudinary.com/mokaweb/image/upload/v1592495614/Codecademy%20Angular/NearMeApp2.gif" alt="NearMeApp2">
