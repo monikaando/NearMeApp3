@@ -1,4 +1,4 @@
-# NearMeApp
+# NearMeApp2
 In this exercise I practiced:
 1. Create and use modules 
 2. Create and use controllers
@@ -6,4 +6,5 @@ In this exercise I practiced:
 4. Use an Angular built-in filter
 5. Injecting dependencies into modules
 6. Passing data from controller to directive
-<img src="https://res.cloudinary.com/mokaweb/image/upload/v1592417155/Codecademy%20Angular/NearMeApp.gif" alt="NearMeApp">
+7. Services
+<img src="https://res.cloudinary.com/mokaweb/image/upload/v1592417155/Codecademy%20Angular/NearMeApp.gif" alt="NearMeApp2">
